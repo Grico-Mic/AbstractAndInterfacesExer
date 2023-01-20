@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BeverageMaker\BeverageMaker.csproj" />
+    <ProjectReference Include="..\Polygons\Polygons.csproj" />
   </ItemGroup>
 
 </Project>
