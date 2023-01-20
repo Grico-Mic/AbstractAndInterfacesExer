@@ -1,35 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace BeverageMaker
 
 {
-    public class TeaMaker
+    public class TeaMaker : BeverageMaker
     {
-        public void AddWater()
-        {
-            Console.WriteLine("Add water");
-        }
-
-        public void AddOnStove()
-        {
-            Console.WriteLine("Add on stove");
-        }
-
-        public void BoilingWater()
-        {
-            Console.WriteLine("Tne water is boiled");
-        }
-
-        public void AddTea()
+        public override void AddBeverage()
         {
             Console.WriteLine("Add tea");
         }
-        public void ServedBeverage()
-        {
-            Console.WriteLine("The beverage is served");
-        }
-
     }
 }
