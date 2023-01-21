@@ -2,7 +2,7 @@
 
 namespace Polygons.Models
 {
-    public abstract class RegularPoligon
+    public abstract class RegularPoligon : IRegularPolygon
     {
         public RegularPoligon(int sideLenght, int sideNumber)
         {
