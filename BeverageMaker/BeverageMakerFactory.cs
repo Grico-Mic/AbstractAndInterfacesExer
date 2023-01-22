@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BeverageMaker
 {
-    public class BeverageMakerFactory
+    public static  class BeverageMakerFactory
     {
-        public IBeverageMaker CreateBeverageMaker(string userInput)
+        public static IBeverageMaker CreateBeverageMaker(string userInput)
         {
             IBeverageMaker maker = null;
             if (userInput == "1")
