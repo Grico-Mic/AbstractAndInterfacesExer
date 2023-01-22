@@ -6,7 +6,7 @@ namespace BeverageMaker
 {
     public class TeaMaker : BeverageMaker
     {
-        public override void AddBeverage()
+        protected override void AddBeverage()
         {
             Console.WriteLine("Add tea");
         }

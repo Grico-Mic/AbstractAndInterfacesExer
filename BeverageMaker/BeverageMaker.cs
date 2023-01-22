@@ -3,7 +3,7 @@
 
 namespace BeverageMaker
 {
-    public abstract class BeverageMaker
+    public abstract class BeverageMaker : IBeverageMaker
     {
         public void ServedBeverage()
         {
@@ -28,7 +28,7 @@ namespace BeverageMaker
             Console.WriteLine("Tne water is boiled");
         }
 
-        public abstract void AddBeverage();
+        protected abstract void AddBeverage();
         
        
     }
